@@ -1,0 +1,24 @@
+body {
+    background-color: #7C9D96;
+}
+
+h1, h2, h3 {
+    color: #F6F4EB;
+}
+
+span {
+    font-family: sans-serif;
+}
+
+#list1 {
+    color: #F6F4EB;
+}
+
+.mark {
+    color: #4682A9;
+}
+
+button {
+    background-color: #E9B384;
+    
+}

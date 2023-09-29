@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+
+    <style>
+        .jokes > p {
+            font-size: 12px;
+            color: chocolate;
+            font-family: sans-serif;
+        }
+
+        .jokes > p:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        .jokes button:hover {
+            background-color: grey;
+        }
+
+        .jokes:nth-of-type(1n) {
+            background-color: teal;
+        }
+
+        .content > p {
+            color: blue;
+        }
+
+        a + button {
+            background-color: brown;
+        }
+
+        input[type="text"] {
+            color: tomato;
+        }
+
+        section h3::first-letter {
+            font-size: xx-large;
+        }
+
+        section h3::after {
+            content: '#';
+        }
+
+        section p::first-line {
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kumpulan Joke Bapack-Bapack</h1>
+    <input type="text" placeholder="search" name="search" id=""> <button>Search</button>
+    <hr>
+    <section class="jokes">
+        <h3>Udang kalau di Cirebon namanya Udang rebon, kalau dari Inggris ? Udang Robin!</h3>
+        <div class="content">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus minima velit, officia nesciunt necessitatibus sint, adipisci amet perspiciatis nam ea, maiores perferendis! Ipsam rerum dolor, facere repellendus nulla est quam?</p>
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint iure cum cumque nostrum! Reiciendis veniam officia perspiciatis, error, quo porro provident minima quam iusto architecto quisquam modi ipsam.</p>
+            </div>
+        </div>
+        <p>Dipublish oleh : <span>John</span></p>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non accusantium sint iure cum cumque nostrum! Reiciendis veniam officia perspiciatis, error, quo porro provident minima quam iusto architecto quisquam modi ipsam.</p>
+        </div>
+        <button>Vote +</button>
+    </section>
+    <hr>
+    <section class="jokes">
+        <h3>Alat masak apa yang suka bikin kesel ? Paan cii...!</h3>
+        <p>Dipublish oleh : <span>John</span></p>
+        <button>Vote +</button>
+    </section>
+    <hr>
+    <section class="jokes">
+        <h3>Gula, gula apa yang bukan gula merah ? Gula Aren't</h3>
+        <p>Dipublish oleh : <span>John</span></p>
+        <button>Vote +</button>
+    </section>
+    <hr>
+    <p>Joke ini semata-mata hanya ingin menghibur bapak pribadi saja, bukan untuk kalian</p>
+    <a href="#">Link</a>
+    <button>Kirim</button>
+</body>
+</html>

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@300&display=swap');
+
+body {
+    background-color: #352F44;
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+}
+
+.navlist {
+    background-color: #5C5470;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.menuitems,
+li,
+a {
+    display: inline-block;
+    margin: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #FAF0E6;
+    position: relative;
+}
+
+.menuitems,
+li,
+a:hover, 
+.menuitems,
+li,
+a:focus {
+    color: #352F44;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.button {
+    border: 2px solid #352F44;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-family: monospace;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #352F44;
+    color: #FAF0E6;
+}
+
+.subtitle {
+    color: #352F44;
+    font-size: 1.8rem;
+    font-weight: 900;
+    font-family: monospace;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+span,
+.button {
+    margin: 0;
+    padding: 10px 20px;
+    align-items: center;
+}
+
+section {
+    display: flex;
+}
+
+.text, 
+h3,
+p {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 3rem;
+    color: #FAF0E6;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+p {
+    color: #FAF0E6;
+}
+
+section,
+.main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 2fr));
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.card img {
+    border: 1px solid #352F44;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media(max-width: 768px) {
+    .menu-items {
+        flex-direction: column;
+    }
+
+    .menu-items li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    span .button {
+        display: flex;
+    }
+
+    h3 {
+        align-items: center;
+    }
+}
